@@ -1,4 +1,4 @@
-package com.strive.ThreadMechanism.waitandnotify;
+package com.strive.ThreadMechanism.first_waitandnotify;
 
 public class ThreadDemo {
     public static void main(String[] args) {
