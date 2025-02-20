@@ -13,7 +13,7 @@ public class MyThread extends Thread {
                     break;
                 }else{
                     try {
-                        Thread.sleep(1500);
+                        Thread.sleep(2000);
                     } catch (InterruptedException e) {
                         throw new RuntimeException(e);
                     }
