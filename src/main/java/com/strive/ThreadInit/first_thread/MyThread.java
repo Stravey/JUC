@@ -1,6 +1,7 @@
 package com.strive.ThreadInit.first_thread;
 
 public class MyThread extends Thread {
+
     @Override
     public void run() {
         // 打印输出100个Hello World
@@ -8,4 +9,5 @@ public class MyThread extends Thread {
             System.out.println("Hello World");
         }
     }
+
 }

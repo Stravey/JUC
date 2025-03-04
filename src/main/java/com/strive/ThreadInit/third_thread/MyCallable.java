@@ -3,6 +3,7 @@ package com.strive.ThreadInit.third_thread;
 import java.util.concurrent.Callable;
 
 public class MyCallable implements Callable<Integer> {
+
     @Override
     public Integer call() throws Exception {
         int sum = 0;
@@ -11,4 +12,5 @@ public class MyCallable implements Callable<Integer> {
         }
         return sum;
     }
+
 }
